@@ -1,6 +1,6 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
 
-const Feature = ({ blok }) => (
+const Training = ({ blok }) => (
   <div className="blok-feature" {...storyblokEditable(blok)}>
     {blok.name}
     <h1>GA4 Training</h1>
@@ -9,8 +9,8 @@ const Feature = ({ blok }) => (
       Analytics 4 for your website. Understand key metrics, create custom
       reports, and use data to drive insights and improve business performance."
     </h2>
-    <a href="Training.jsx" className="btn btn-primary">
-      See More!
+    <a href="feauture.jsx" className="btn btn-primary">
+      Go Back
     </a>
 
     <br></br>
@@ -50,4 +50,4 @@ const Feature = ({ blok }) => (
   </div>
 );
 
-export default Feature;
+export default Training;
